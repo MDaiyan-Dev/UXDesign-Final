@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Audi A4",
+    "modelYear": 2021,
+    "type": "Luxury",
+    "location": "Toronto",
+    "image": "/images/AudiA4.jpg"
+  },
+  {
+    "id": 2,
+    "name": "BMW 5 Series",
+    "modelYear": 2022,
+    "type": "Luxury",
+    "location": "Vancouver",
+    "image": "/images/Bmw5series.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Chevrolet Spark",
+    "modelYear": 2020,
+    "type": "Economy",
+    "location": "Montreal",
+    "image": "/images/ChevroletSpark.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Ford Escape",
+    "modelYear": 2022,
+    "type": "SUV",
+    "location": "Ottawa",
+    "image": "/images/FordEscape.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Ford Focus",
+    "modelYear": 2019,
+    "type": "Compact",
+    "location": "Toronto",
+    "image": "/images/FordFocus.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Honda Accord",
+    "modelYear": 2021,
+    "type": "Midsize",
+    "location": "Montreal",
+    "image": "/images/HondaAccord.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Honda Civic",
+    "modelYear": 2020,
+    "type": "Compact",
+    "location": "Vancouver",
+    "image": "/images/HondaCivic.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Honda CR-V",
+    "modelYear": 2022,
+    "type": "SUV",
+    "location": "Ottawa",
+    "image": "/images/HondaCrv.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Hyundai Ascent",
+    "modelYear": 2022,
+    "type": "Economy",
+    "location": "Toronto",
+    "image": "/images/HyundaiAscent.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Hyundai Sonata",
+    "modelYear": 2020,
+    "type": "Midsize",
+    "location": "Montreal",
+    "image": "/images/HyundaiSonata.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Jeep Cherokee",
+    "modelYear": 2023,
+    "type": "SUV",
+    "location": "Vancouver",
+    "image": "/images/JeepCherokee.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Kia Rio",
+    "modelYear": 2021,
+    "type": "Economy",
+    "location": "Ottawa",
+    "image": "/images/KiaRio.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Lexus ES",
+    "modelYear": 2022,
+    "type": "Luxury",
+    "location": "Toronto",
+    "image": "/images/LexusES.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Mercedes E-Class",
+    "modelYear": 2023,
+    "type": "Luxury",
+    "location": "Vancouver",
+    "image": "/images/MercedesEclass.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Nissan Altima",
+    "modelYear": 2019,
+    "type": "Midsize",
+    "location": "Montreal",
+    "image": "/images/NissanAltima.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Nissan Versa",
+    "modelYear": 2020,
+    "type": "Economy",
+    "location": "Toronto",
+    "image": "/images/NissanVersa.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Toyota Camry",
+    "modelYear": 2021,
+    "type": "Midsize",
+    "location": "Ottawa",
+    "image": "/images/ToyotaCamry.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Toyota RAV4",
+    "modelYear": 2023,
+    "type": "SUV",
+    "location": "Toronto",
+    "image": "/images/ToyotaRav4.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Toyota Yaris",
+    "modelYear": 2019,
+    "type": "Economy",
+    "location": "Toronto",
+    "image": "/images/ToyotaYaris.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Volkswagen Jetta",
+    "modelYear": 2020,
+    "type": "Compact",
+    "location": "Montreal",
+    "image": "/images/VolkswagenJetta.jpg"
+  }
+]
