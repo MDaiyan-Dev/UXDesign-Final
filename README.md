@@ -29,7 +29,7 @@ hertz-so-good/
 │   │   ├── ChevroletSpark.jpg
 │   │   ├── FordEscape.jpg
 │   │   ├── HondaCivic.jpg
-│   │   ├── ... (other car images)
+│   │   └── ... (other car images)
 ├── src/
 │   ├── components/              # Reusable React components
 │   │   ├── MainPage.jsx         # Main landing page of the app
@@ -41,7 +41,6 @@ hertz-so-good/
 ├── tailwind.config.js           # Tailwind CSS configuration
 ├── postcss.config.js            # PostCSS configuration for Tailwind
 ├── README.md                    # Project documentation (this file)
-
 
 ## 🛠️ Getting Started  
 
