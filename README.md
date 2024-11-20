@@ -20,6 +20,7 @@ Here’s a detailed `README.md` file for the **HertzSoGood** repository:
 ---
 
 ## 📂 Project Structure  
+```
 hertz-so-good/
 ├── public/
 │   ├── cars.json                # JSON file containing car data
@@ -41,7 +42,7 @@ hertz-so-good/
 ├── tailwind.config.js           # Tailwind CSS configuration
 ├── postcss.config.js            # PostCSS configuration for Tailwind
 ├── README.md                    # Project documentation (this file)
-
+```
 ## 🛠️ Getting Started  
 
 ### Prerequisites  
