@@ -20,22 +20,28 @@ Here’s a detailed `README.md` file for the **HertzSoGood** repository:
 ---
 
 ## 📂 Project Structure  
-```
-HertzSoGood/
+hertz-so-good/
+├── public/
+│   ├── cars.json                # JSON file containing car data
+│   ├── images/                  # Directory for car images
+│   │   ├── AudiA4.jpg
+│   │   ├── Bmw5series.jpg
+│   │   ├── ChevroletSpark.jpg
+│   │   ├── FordEscape.jpg
+│   │   ├── HondaCivic.jpg
+│   │   ├── ... (other car images)
 ├── src/
-│   ├── components/     # Reusable React components
-│   ├── pages/          # Page components (e.g., Home, Booking)
-│   ├── styles/         # CSS/SCSS styles
-│   ├── index.tsx       # Entry point for the app
-│   ├── App.tsx         # Main application component
-│   └── index.html      # Root HTML template
-├── webpack.config.js    # Webpack configuration
-├── tsconfig.json        # TypeScript configuration
-├── package.json         # Project dependencies and scripts
-└── README.md            # Project documentation
-```
+│   ├── components/              # Reusable React components
+│   │   ├── MainPage.jsx         # Main landing page of the app
+│   │   ├── SignInModal.jsx      # Sign-in modal component
+│   ├── App.js                   # Main app component
+│   ├── index.js                 # Entry point for the React app
+├── .gitignore                   # Files and directories to ignore in Git
+├── package.json                 # Node.js dependencies and scripts
+├── tailwind.config.js           # Tailwind CSS configuration
+├── postcss.config.js            # PostCSS configuration for Tailwind
+├── README.md                    # Project documentation (this file)
 
----
 
 ## 🛠️ Getting Started  
 
