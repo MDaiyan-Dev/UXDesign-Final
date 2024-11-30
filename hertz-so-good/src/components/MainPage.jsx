@@ -6,6 +6,7 @@ const MainPage = ({ user, onSignOut, onSignIn }) => {
   const [rentalDate, setRentalDate] = useState("");
   const [cars, setCars] = useState([]);
   const [filteredCars, setFilteredCars] = useState([]);
+  const [noResults, setNoResults] = useState(false); // Added state for no results
 
   // Fetch cars data from the JSON file
   useEffect(() => {
@@ -33,11 +34,13 @@ const MainPage = ({ user, onSignOut, onSignIn }) => {
     );
 
     setFilteredCars(results);
+
+    // Set no results flag if no matches
+    setNoResults(results.length === 0);
   };
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: "#d6d6d6" }}>
-
+    <div className="min-h-screen bg-gray-100">
       {/* Navbar */}
       <header className="bg-white shadow-sm">
         <div className="container mx-auto px-4 py-6 flex justify-between items-center">
@@ -168,7 +171,13 @@ const MainPage = ({ user, onSignOut, onSignIn }) => {
         </div>
 
         {/* Results Section */}
-        {filteredCars.length > 0 && (
+        {noResults ? (
+          <section className="mt-16 text-center">
+            <p className="text-xl text-gray-600 font-semibold">
+              No vehicles available for the selected parameters.
+            </p>
+          </section>
+        ) : (
           <section className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {filteredCars.map((car) => (
               <div
