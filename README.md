@@ -1,7 +1,7 @@
 # UXDesign-Final
 Final Project for UX design course
 
-Here’s a detailed `README.md` file for the **HertzSoGood** repository:
+##THIS IS A USER-INTERFACE BEST PRACTICES MOCKUP AND DEMO. NOT THE FULL APPLICATION!!
 
 ---
 
